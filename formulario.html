@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+   <head>
+      <link rel= "stylesheet" type= "text/css" href= "estilo.css">
+      <meta charset= "UTF-8">
+      <title> Cadastro do Usuário </title>
+   </head>
+   <main>
+      <form>
+         <h2> Dados do Usuário</h2>
+         <label for= "nome"> Nome Completo: </label>
+         <input type= "text" name= "nome" id= nome>
+         <label for= "email"> E-mail:</label>
+         <input type= "email" name= "email" id= email>  
+         <label for= "telefone"> Telefone:</label>
+         <input type= "text" name= "telefone" id= telefone>
+         <div>
+            <label for="mensagem">Mensagem:</label>
+            <textarea cols="40" rows="10" id="mensagem"></textarea>
+         </div>
+
+         <div>
+            <p> Sexo: </p>
+            <label for= "radio-feminino">
+               <input type="radio" name="sexo" id= "radio-feminino" value="feminino"> 
+               Feminino
+            </label>
+            </label for= "radio-masculino">
+               <input type="radio" name="sexo" id= "radio-masculino" value="feminino">
+               Masculino
+            </label>
+         </div>
+         <div>
+         <label>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            Gostaria de receber as noticias por email?
+         </label>
+         </div>
+
+         <label for="horario"> Qual turno gostaria de ser atendido?</label>
+
+         <div>
+            <select name="estadocivil" id= "estado civil">
+               <option value="manhã">Manhã </option>
+               <option value="tarde">Tarde </option>
+               <option value="noite">Noite </option>
+            </select>   
+         </div>
+   
+         <input type= "submit" name= "enviar">
+      </form>
+   </main>   
+</html>
